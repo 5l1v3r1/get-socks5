@@ -1,0 +1,30 @@
+{
+  "name": "get-socks5",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Get checked socks5 proxies list",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xNEL99/get-socks5"
+  },
+  "keywords": [
+    "socks",
+    "socks5",
+    "proxies",
+    "scrapper",
+    "proxy-scrapper",
+    "socks-scrapper",
+    "proxy-checker"
+  ],
+  "author": "Nel (https://github.com/xNEL99)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "socks-proxy-agent": "^4.0.0",
+    "ws": "^5.1.1"
+  }
+}
